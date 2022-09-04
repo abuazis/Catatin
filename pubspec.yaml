@@ -27,12 +27,16 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  cupertino_icons: ^1.0.2
+  core:
+    path: core
   flutter:
     sdk: flutter
+  flutter_bloc: ^8.1.1
   flutter_downloader: ^1.8.3
-  flutter_markdown: ^0.6.10+5
-  path_provider: ^2.0.11
+  get_it: ^7.2.0
+  md_course:
+    path: md_course
+  provider: ^6.0.3
 
 dev_dependencies:
   flutter_lints: ^2.0.0
